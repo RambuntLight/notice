@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>냉·난방비 상세 명세서</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-3xl mx-auto mt-12 mb-12 p-8 bg-white rounded-2xl shadow-md border border-gray-200">
+    <!-- 제목 영역 -->
+    <div class="text-center mb-8">
+      <h1 class="text-2xl font-bold text-gray-900 mb-2">경북대학교 생활관 냉·난방비 상세 명세서</h1>
+      <p class="text-sm text-gray-500">부과 기간: 2025년 9월 1일 ~ 12월 31일</p>
+    </div>
+
+    <!-- 기본 정보 -->
+    <div class="grid grid-cols-2 gap-4 mb-8 text-sm">
+      <div class="border border-gray-200 rounded-xl p-4">
+        <p class="text-gray-500 mb-1">납입자명</p>
+        <p class="font-semibold">1503 김성윤</p>
+      </div>
+      <div class="border border-gray-200 rounded-xl p-4">
+        <p class="text-gray-500 mb-1">학번</p>
+        <p class="font-semibold">2025004691</p>
+      </div>
+      <div class="border border-gray-200 rounded-xl p-4">
+        <p class="text-gray-500 mb-1">거주관</p>
+        <p class="font-semibold">첨성관 1동 503호</p>
+      </div>
+      <div class="border border-gray-200 rounded-xl p-4">
+        <p class="text-gray-500 mb-1">총 부과 금액</p>
+        <p class="font-semibold text-red-600 text-lg">223,474원</p>
+      </div>
+    </div>
+
+    <!-- 냉방/난방 큰 항목 요약 -->
+    <h2 class="text-lg font-semibold mb-3">1. 냉·난방비 항목별 요약</h2>
+    <div class="overflow-x-auto mb-8">
+      <table class="min-w-full text-sm border border-gray-200">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="border-b border-gray-200 px-4 py-2 text-left">구분</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-left">기간</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-right">금액</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-right">총액 대비 비율</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-left">비고</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border-b border-gray-100 px-4 py-2">냉방비</td>
+            <td class="border-b border-gray-100 px-4 py-2">2025년 9월분</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">55,868원</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">25.0%</td>
+            <td class="border-b border-gray-100 px-4 py-2">9월 냉방 사용분</td>
+          </tr>
+          <tr>
+            <td class="border-b border-gray-100 px-4 py-2">난방비</td>
+            <td class="border-b border-gray-100 px-4 py-2">2025년 10~12월분</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">167,606원</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">75.0%</td>
+            <td class="border-b border-gray-100 px-4 py-2">10·11·12월 난방 사용분 합계</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="px-4 py-2 font-semibold">합계</td>
+            <td class="px-4 py-2"></td>
+            <td class="px-4 py-2 text-right font-semibold">223,474원</td>
+            <td class="px-4 py-2 text-right font-semibold">100%</td>
+            <td class="px-4 py-2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 월별 세부 명세 -->
+    <h2 class="text-lg font-semibold mb-3">2. 월별 세부 명세</h2>
+    <p class="text-xs text-gray-500 mb-2">
+      ※ 난방비는 10·11·12월 사용량을 고려하여 10월:11월:12월 = 1:2:3 비율로 배분하였습니다.
+    </p>
+    <div class="overflow-x-auto mb-8">
+      <table class="min-w-full text-sm border border-gray-200">
+        <thead class="bg-gray-100">
+          <tr>
+            <th class="border-b border-gray-200 px-4 py-2 text-left">월</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-left">항목</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-right">금액</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-right">총액 대비 비율</th>
+            <th class="border-b border-gray-200 px-4 py-2 text-left">비고</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border-b border-gray-100 px-4 py-2">9월</td>
+            <td class="border-b border-gray-100 px-4 py-2">냉방비</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">55,868원</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">25.0%</td>
+            <td class="border-b border-gray-100 px-4 py-2">냉방 위주 사용</td>
+          </tr>
+          <tr>
+            <td class="border-b border-gray-100 px-4 py-2">10월</td>
+            <td class="border-b border-gray-100 px-4 py-2">난방비</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">27,934원</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">12.5%</td>
+            <td class="border-b border-gray-100 px-4 py-2">난방 시작, 사용량 적음</td>
+          </tr>
+          <tr>
+            <td class="border-b border-gray-100 px-4 py-2">11월</td>
+            <td class="border-b border-gray-100 px-4 py-2">난방비</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">55,869원</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">25.0%</td>
+            <td class="border-b border-gray-100 px-4 py-2">본격 난방 사용</td>
+          </tr>
+          <tr>
+            <td class="border-b border-gray-100 px-4 py-2">12월</td>
+            <td class="border-b border-gray-100 px-4 py-2">난방비</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">83,803원</td>
+            <td class="border-b border-gray-100 px-4 py-2 text-right">37.5%</td>
+            <td class="border-b border-gray-100 px-4 py-2">최한기, 난방 사용량 많음</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="px-4 py-2 font-semibold">합계</td>
+            <td class="px-4 py-2"></td>
+            <td class="px-4 py-2 text-right font-semibold">223,474원</td>
+            <td class="px-4 py-2 text-right font-semibold">100%</td>
+            <td class="px-4 py-2"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 안내 문구 -->
+    <div class="mt-4 text-xs text-gray-500 leading-5">
+      <p class="mb-1">※ 본 명세서는 고지서 이해를 돕기 위한 예시로, 실제 청구 금액과는 차이가 있을 수 있습니다.</p>
+      <p>※ 금액은 원 단위에서 반올림하여 표기하였습니다.</p>
+    </div>
+
+    <!-- 돌아가기 링크 -->
+    <div class="mt-8 text-center">
+      <a href="KNU_notice.html"
+         class="inline-block text-blue-600 underline text-sm hover:text-blue-800">
+        ← 관리비 납입 고지서로 돌아가기
+      </a>
+    </div>
+  </div>
+</body>
+</html>
